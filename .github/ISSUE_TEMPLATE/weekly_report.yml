@@ -1,0 +1,31 @@
+name: Öğrenci İlerleme Kartı
+description: Haftalık ilerleme takibi
+title: "[HAFTALIK TAKİP] - Rıfatcan Karamanlıoğlu"
+labels: ["progress"]
+
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Konu / Proje / Makale
+
+  - type: textarea
+    id: progress
+    attributes:
+      label: İlerleme (%)
+      placeholder: "%0 - %100"
+
+  - type: textarea
+    id: weekly
+    attributes:
+      label: Bu Hafta Yapılanlar
+
+  - type: textarea
+    id: problems
+    attributes:
+      label: Problemler
+
+  - type: textarea
+    id: next
+    attributes:
+      label: Sonraki Adım
